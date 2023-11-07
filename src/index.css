@@ -1,0 +1,39 @@
+.header{
+    background-color: #12324F;
+    color: white;
+    height: 50px;
+    font-size: 1.5em;
+    padding: 10px 12px;
+    /* margin: 1px 2px 2px 2px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 0;
+    top: 0;
+    /* width: 100%; */
+    z-index: 1;
+}
+.log-out {
+    border-radius: 10px;
+    background-color: rgb(236, 242, 242);
+    font-size: medium;
+}
+
+.login-img {
+    height: 35px;
+    width: auto;
+}
+
+.login {
+    border: none;
+    background-color: transparent;
+}
+
+.img {
+    border-style: none;
+    height: 92vh;
+    background-repeat: no-repeat;
+    /* width: auto; */
+}
+
