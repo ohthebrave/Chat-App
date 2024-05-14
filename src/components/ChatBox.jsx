@@ -1,6 +1,6 @@
 const ChatBox = () => {
     return ( 
-        
+        <div>Hello</div>
      );
 }
  

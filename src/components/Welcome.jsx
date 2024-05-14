@@ -3,7 +3,7 @@ import phone_img from "../assets/vd-call.webp"
 
 const Welcome = () => {
     return ( 
-        <section className="container" >
+        <section className="" >
             <div className="d-flex flex-row mb-3">
                 <div className="p-5 align-items-center" >
                     <h1> <AiOutlineMessage/> Hang out anytime, anywhere and message privately.</h1>
