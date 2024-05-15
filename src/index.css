@@ -32,3 +32,18 @@
 .kathenge {
   height: 80vh;
 }
+
+.sign-up-form {
+  max-width: 600px;
+}
+
+.sign-button {
+  background-color: #2b3130;
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.sign-button:hover {
+  background-color: #9c0df5;
+  transform: scale(1.1);
+}

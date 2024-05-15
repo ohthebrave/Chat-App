@@ -1,5 +1,4 @@
 import { useState } from "react";
-import googleSign from "../assets/VS53t.png";
 import {BsFillChatDotsFill} from "react-icons/bs"
 
 const Navbar = () => {
@@ -27,9 +26,6 @@ const Navbar = () => {
                                 <a className="nav-link active ms-3" aria-current="page" href="#">Home</a>
                             </li>
                         </ul>
-                        <button className="login">
-                            <img className="login-img" src={googleSign} alt="google" />
-                        </button>
                     </div>
                 </div>
             </nav>

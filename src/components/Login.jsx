@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import googleSign from "../assets/VS53t.png";
 
 function Login() {
 
@@ -51,8 +52,16 @@ function Login() {
             </div>
           </form>
           <div className="mt-3 mb-5 text-center">
-            Don't have an account? <Link to="/sign-up"> Sign up here</Link>
+            Don't have an account? <Link to="/signup"> Sign up here</Link>
           </div>
+          <div className='d-flex justify-content-center align-items-center w-100'>
+            <div className='border border-bottom-secondary mb-2.5 m-2 w-100'></div>
+            <div className='text-sm font-weight-bold'>OR</div>
+            <div className='border border-bottom-secondary mb-2.5 m-2 w-100'></div>
+          </div>
+          <button className="login">
+            <img className="login-img border border-dark-subtle mb-2" src={googleSign} alt="google" />
+          </button>
         </div>
       </div>
     </div>
