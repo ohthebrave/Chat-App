@@ -1,17 +1,34 @@
-
 .log-out {
-    border-radius: 10px;
-    background-color: rgb(236, 242, 242);
-    font-size: medium;
+  border-radius: 10px;
+  background-color: rgb(236, 242, 242);
+  font-size: medium;
 }
 
 .login-img {
-    height: 35px;
-    /* width: auto; */
+  height: 35px;
+  /* width: auto; */
 }
 
 .login {
-    border: none;
-    background-color: transparent;
+  border: none;
+  background-color: transparent;
 }
 
+.sign-in-form {
+  max-width: 600px;
+}
+
+.sign-button {
+  background-color: #2b3130;
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.sign-button:hover {
+  background-color: #9c0df5;
+  transform: scale(1.1);
+}
+
+.kathenge {
+  height: 80vh;
+}
